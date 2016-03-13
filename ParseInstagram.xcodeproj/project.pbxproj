@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0045D5161C94885B001A2C0F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0045D5151C94885B001A2C0F /* FeedViewController.swift */; };
+		0045D5181C948992001A2C0F /* InstagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0045D5171C948992001A2C0F /* InstagramCell.swift */; };
+		0045D51A1C94955D001A2C0F /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0045D5191C94955D001A2C0F /* CaptureViewController.swift */; };
+		0045D51C1C949DB4001A2C0F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0045D51B1C949DB4001A2C0F /* Post.swift */; };
+		0045D51E1C94A664001A2C0F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0045D51D1C94A664001A2C0F /* ProfileViewController.swift */; };
 		0054333B1C8E314500D05BD7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0054333A1C8E314400D05BD7 /* LoginViewController.swift */; };
 		00693C541C8E14BB00923605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00693C531C8E14BB00923605 /* AppDelegate.swift */; };
-		00693C561C8E14BB00923605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00693C551C8E14BB00923605 /* ViewController.swift */; };
 		00693C591C8E14BB00923605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00693C571C8E14BB00923605 /* Main.storyboard */; };
 		00693C5B1C8E14BB00923605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00693C5A1C8E14BB00923605 /* Assets.xcassets */; };
 		00693C5E1C8E14BB00923605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00693C5C1C8E14BB00923605 /* LaunchScreen.storyboard */; };
@@ -17,10 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0045D5151C94885B001A2C0F /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0045D5171C948992001A2C0F /* InstagramCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCell.swift; sourceTree = "<group>"; };
+		0045D5191C94955D001A2C0F /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		0045D51B1C949DB4001A2C0F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0045D51D1C94A664001A2C0F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0054333A1C8E314400D05BD7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		00693C501C8E14BB00923605 /* ParseInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00693C531C8E14BB00923605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00693C551C8E14BB00923605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00693C581C8E14BB00923605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00693C5A1C8E14BB00923605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00693C5D1C8E14BB00923605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +50,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0045D5141C94880C001A2C0F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0054333A1C8E314400D05BD7 /* LoginViewController.swift */,
+				0045D5151C94885B001A2C0F /* FeedViewController.swift */,
+				0045D5191C94955D001A2C0F /* CaptureViewController.swift */,
+				0045D51D1C94A664001A2C0F /* ProfileViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		00693C471C8E14BA00923605 = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +82,14 @@
 		00693C521C8E14BB00923605 /* ParseInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				0045D5141C94880C001A2C0F /* View Controllers */,
 				00693C531C8E14BB00923605 /* AppDelegate.swift */,
-				00693C551C8E14BB00923605 /* ViewController.swift */,
 				00693C571C8E14BB00923605 /* Main.storyboard */,
 				00693C5A1C8E14BB00923605 /* Assets.xcassets */,
 				00693C5C1C8E14BB00923605 /* LaunchScreen.storyboard */,
 				00693C5F1C8E14BB00923605 /* Info.plist */,
-				0054333A1C8E314400D05BD7 /* LoginViewController.swift */,
+				0045D5171C948992001A2C0F /* InstagramCell.swift */,
+				0045D51B1C949DB4001A2C0F /* Post.swift */,
 			);
 			path = ParseInstagram;
 			sourceTree = "<group>";
@@ -213,9 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0045D5181C948992001A2C0F /* InstagramCell.swift in Sources */,
 				0054333B1C8E314500D05BD7 /* LoginViewController.swift in Sources */,
-				00693C561C8E14BB00923605 /* ViewController.swift in Sources */,
+				0045D5161C94885B001A2C0F /* FeedViewController.swift in Sources */,
+				0045D51C1C949DB4001A2C0F /* Post.swift in Sources */,
+				0045D51E1C94A664001A2C0F /* ProfileViewController.swift in Sources */,
 				00693C541C8E14BB00923605 /* AppDelegate.swift in Sources */,
+				0045D51A1C94955D001A2C0F /* CaptureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
